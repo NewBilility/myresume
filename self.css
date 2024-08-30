@@ -183,3 +183,7 @@ footer {
     right: 0;
     background-color: #f0f0f0;
 }
+
+ul {
+    list-style-type: none;
+}
