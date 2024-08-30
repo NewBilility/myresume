@@ -1,12 +1,139 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>个人简历</title>
-</head>
-<body>
-    <h1>myname</h1>
-    <p>gmy</p>
-</body>
-</html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./layui-v2.9.15/layui/css/layui.css">
+    <script src="./layui-v2.9.15/layui/layui.js"></script>
+    <link rel="stylesheet" href="self.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="mleft">
+            <div id="mleft1">
+                <img src="./1.jpg" alt="self_photo">
+            </div>
+            <div id="mleft2">
+                <ul>
+                    <li>姓名：高名衍</li>
+                    <li>出生日期：93.3.19</li>
+                    <li>地区：深圳</li>
+                    <li>电话：18565700731</li>
+                    <li>邮箱：myrongoh@163.com</li>
+
+                </ul>
+            </div>
+            <div id="mleft3">
+                <ul>
+                    <li>技术栈：</li>
+
+                    <li>
+                        熟练掌握c++，golang，python；
+                    </li>
+
+                    <li>
+                        熟练使用git版本控制工具，postman调试工具，gdb调试工具、tcpdump抓包工具、docker容器化技术；
+                    </li>
+
+                    <li>
+                        了解前端技术html、css、javascript；
+                    </li>
+                    <li>
+                        熟练使用数据库mysql、消息队列kafka、代理网关nginx；
+                    </li>
+
+                    <li>语言能力：英语六级、雅思6.0</li>
+
+
+
+                </ul>
+            </div>
+            <div id="mleft4">
+                <p>兴趣爱好:</p>
+                <p>热爱运动，编程，LOL，游泳，健身。</p>
+
+            </div>
+        </div>
+        <div class="mright">
+            <div id="base">
+                <div class="bcont">目标岗位：开发工程师</div>
+                <div class="bcont">期望城市：深圳</div>
+                <div class="bcont">期望薪资：25k每月</div>
+                <div class="bcont">入职时间：随时可以到岗</div>
+            </div>
+            <div id="education">
+
+                <h2><i class="layui-icon layui-icon-read"></i><span id="s1">教育背景</span></h2>
+
+                <div class="hline"></div>
+
+                <ul class="hul">
+                    <li>2017.09 ~ 2020.06</li>
+                    <li>西南大学</li>
+                    <li>计算机软件与理论</li>
+                    <li>硕士研究生</li>
+                </ul>
+            </div>
+
+            <div id="work">
+                <h2><i class="layui-icon layui-icon-template-1"></i><span id="s1">工作经历</span></h2>
+                <div class="hline"></div>
+                <ul class="hul">
+                    <li>2020.06 ~ 2023.06</li>
+                    <li>腾讯科技公司</li>
+                    <li>后台服务器开发</li>
+                </ul>
+
+                <ul class="huh">
+                    <li>项目1：安全事件工单平台</li>
+                    <li>项目主要功能：检测全公司员工用户的行为是否存在风险。</li>
+                    <li>该项目使用组件：mysql，kafka，mpc++框架，并采用蓝盾流水线一键部署。</li>
+                    <li>本人主要负责：项目设计、代码编写、单元测试、后期更新维护。</li>
+                    <li>该项目的检测功能面向公司全体员工；单日处理工单3000+；上线两年多，总共处理工单400w+；与前端页面交互，响应迅速，查看和处理工单均在1s内完成响应</li>
+                </ul>
+
+                <ul class="huh">
+                    <li>项目2：漏洞风险测绘平台</li>
+                    <li>项目主要功能：收敛部门内部资产风险</li>
+                    <li>该项目使用组件：mysql、kafka、elk数据库、mpc++框架，并采用蓝盾流水线一键部署。</li>
+                    <li>本人主要负责：项目设计、代码编写、单元测试、后期更新维护。</li>
+                    <li>该项目模块包括：扫描器、后台管理页面、漏洞展示页面（告警推送、工单等）三部分。单日处理50e+的任务数据。经规则过滤筛选后，单日扫描任务达到60w。漏洞展示页面响应迅速，查看和处理工单均在1s内完成响应。
+                    </li>
+                </ul>
+                <ul class="huh">
+                    <li>项目3：git仓库代码风险检测</li>
+                    <li>项目主要功能：查看仓库当前的代码以及历史提交记录里，是否存在敏感信息</li>
+                    <li>该项目使用组件：HyperScan正则匹配引擎，git三方库，并采用蓝盾流水线一键部署。</li>
+                    <li>本人主要负责：项目设计、代码编写、单元测试、后期更新维护。</li>
+                    <li>该项目已发布公司内部的啄木鸟检测平台，作为插件合并到蓝盾组件库中。</li>
+                </ul>
+
+                <ul class="huh">
+                    <li>项目4：nginx安全网关</li>
+                    <li>项目主要功能：为组内SoC平台进行网络加固。</li>
+                    <li>该项目使用组件：openresty服务器组件</li>
+                    <li>本人主要负责：项目设计、代码编写、单元测试、后期更新维护。</li>
+                    <li>该项目为SoC平台进行了网络加固，增加了签名校验、设备id校验、设备id签名校、url白名单功能。响应迅速，前后端交互均在1s内实现响应。</li>
+                </ul>
+            </div>
+
+            <div id="selfpj">
+                <h2><i class="layui-icon layui-icon-friends"></i><span id="s1">自我评价</span></h2>
+                <div class="hline"></div>
+                <ul class="huh">
+                    <li>工作态度认真、积极负责，敢于挑战复杂问题。与领导、同事，相处良好，合作愉快。</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
